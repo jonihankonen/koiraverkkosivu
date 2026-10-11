@@ -1,0 +1,158 @@
+/* Tekijä: Joni Hankonen */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background: #151515;
+    color: #f4efe7;
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.7;
+}
+
+header {
+    background: #101010;
+    border-bottom: 1px solid #39332c;
+}
+
+nav {
+    max-width: 1100px;
+    margin: auto;
+    padding: 18px 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #d5b58b;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 28px;
+}
+
+.nav-links a {
+    color: #f4efe7;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: #d5b58b;
+}
+
+.hero {
+    text-align: center;
+    padding: 75px 20px 85px;
+    background: linear-gradient(135deg, #29241f, #171717 70%);
+    border-bottom: 1px solid #514334;
+}
+
+.eyebrow {
+    color: #c6a475;
+    font-size: 11px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 64px;
+    line-height: 1.2;
+    margin: 10px 0;
+}
+
+.subtitle {
+    color: #cfc3b4;
+    font-size: 19px;
+    font-style: italic;
+}
+
+.dogs {
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 65px 25px;
+    display: flex;
+    gap: 35px;
+}
+
+.dog {
+    flex: 1;
+    min-width: 0;
+    background: #202020;
+    border: 1px solid #39332c;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.dog img {
+    width: 100%;
+    height: 290px;
+    object-fit: cover;
+    display: block;
+}
+
+.dog-info {
+    padding: 22px;
+}
+
+.dog-info h2 {
+    font-size: 32px;
+    margin: 0 0 12px;
+}
+
+.dog-info h2 span {
+    color: #c6a475;
+    font-size: 20px;
+}
+
+.dog-info p {
+    color: #d0cbc4;
+}
+
+.dog-info .detail {
+    color: #c6a475;
+    font-size: 14px;
+}
+
+.quote {
+    max-width: 1000px;
+    margin: 0 auto 60px;
+    padding: 40px 25px;
+    text-align: center;
+    border-top: 1px solid #514334;
+    border-bottom: 1px solid #514334;
+}
+
+.quote h2 {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.quote > p:last-child {
+    color: #c6a475;
+}
+
+footer {
+    background: #101010;
+    text-align: center;
+    padding: 18px;
+    color: #cfc3b4;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+footer span {
+    color: #c6a475;
+    padding: 0 8px;
+}
